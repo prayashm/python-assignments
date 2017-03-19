@@ -27,6 +27,7 @@ def tokens_from(sentences):
     return all_tokens
   
 # Take the paragraph as input
+print('Enter Paragraph:\n')
 user_paragraph = input()
 extracted_sentences = sentences_from(user_paragraph)
 extracted_tokens = tokens_from(extracted_sentences)
