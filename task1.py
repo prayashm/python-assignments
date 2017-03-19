@@ -1,6 +1,7 @@
 # Initialise variables
 delimiters = 0
 user_text = ''
+print('Enter Paragraph:\n')
 
 # Continuously Prompt User for Input
 while True:
